@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "artificial intelligence (AI)",
+        "1": "chat",
+        "2": "productivity"
+    },
+    "demo_page": "https://wurkdev-plugin-testing.bubbleapps.io/version-test",
+    "description": "Unlock the power of advanced artificial intelligence in your Bubble app with the Claude AI Integration plugin. Built to connect instantly with Anthropic’s standard Messages API (v1/messages), this plugin allows you to send prompts and receive high-quality, human-like text generation directly within your application's workflows.\n\nWhether you are building a smart chatbot, an automated content generator, or a complex data analysis tool, this plugin makes it easy to communicate with Claude.\n\nKey Features:\n\nDirect API Connection: Securely connects to Anthropic's backend using your standard API key.\n\nDynamic Inputs: Easily pass dynamic values from your Bubble database or frontend for parameters like the user_message.\n\nCustomizable Parameters: Fine-tune your AI responses by defining the specific model (e.g., Claude 3.5 Haiku) and setting max_tokens limits to manage output length and costs.\n\nWorkflow Ready: Fully parsed JSON responses allow you to capture Claude's exact text output and use it in your downstream Bubble actions.\n\nPerfect for Building:\n\nIntelligent user-facing chatbots and assistants.\n\nAutomated copywriters and summarization tools.\n\nDocument analysis and data extraction workflows.",
+    "image": "//meta-q.cdn.bubble.io/f1783334793065x875404181095556000/icons8-claude-ai-50.png",
+    "license": "open_source",
+    "name": "Claude AI",
+    "platforms_new": "web"
+}

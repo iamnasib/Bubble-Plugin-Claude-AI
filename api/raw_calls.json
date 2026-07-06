@@ -1,0 +1,55 @@
+{
+    "auth": "private_key_header",
+    "calls": {
+        "AAC": {
+            "body": "{\"model\": \"<model>\", \"max_tokens\": <max_tokens>, \"messages\": [{\"role\": \"user\", \"content\": \"<user_message>\"}]}",
+            "body_params": {
+                "AAB": {
+                    "key": "model",
+                    "private": false,
+                    "value": "claude-haiku-4-5-20251001"
+                },
+                "AAC": {
+                    "key": "max_tokens",
+                    "private": false,
+                    "value": "1024"
+                },
+                "AAD": {
+                    "key": "user_message",
+                    "private": false,
+                    "value": ""
+                }
+            },
+            "full_response": "{\"model\":\"claude-haiku-4-5-20251001\",\"id\":\"msg_0144N3LKaJHrn842DqzBNctT\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"# Hello! 👋\\n\\nI'm Claude, an AI assistant made by Anthropic. It seems like you've sent an empty message. \\n\\nHow can I help you today? Feel free to ask me anything – I can:\\n\\n- Answer questions on nearly any topic\\n- Help with writing, analysis, and research\\n- Assist with coding and technical problems\\n- Have creative conversations\\n- And much more!\\n\\nWhat's on your mind?\"}],\"stop_reason\":\"end_turn\",\"stop_sequence\":null,\"stop_details\":null,\"usage\":{\"input_tokens\":8,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":0},\"output_tokens\":97,\"service_tier\":\"standard\",\"inference_geo\":\"not_available\"}}",
+            "headers": {
+                "AAE": {
+                    "key": "anthropic-version",
+                    "private": true,
+                    "value": "2023-06-01"
+                },
+                "AAF": {
+                    "key": "content-type",
+                    "private": false,
+                    "value": "application/json"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "must_reinitialize": false,
+            "name": "Get Response",
+            "publish_as": "action",
+            "rank": 0,
+            "response_schema_truncated": false,
+            "response_time_ms": 2532,
+            "ret_value": "api.1782828484073x123443649200259070.plugin_api.AAC",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get Response\",\"fields\":{\"_p_model\":{\"ret_btype\":\"text\",\"caption\":\"model\",\"sample_value\":\"string value\",\"path\":[\"model\"]},\"_p_id\":{\"ret_btype\":\"text\",\"caption\":\"id\",\"sample_value\":\"string value\",\"path\":[\"id\"]},\"_p_type\":{\"ret_btype\":\"text\",\"caption\":\"type\",\"sample_value\":\"string value\",\"path\":[\"type\"]},\"_p_role\":{\"ret_btype\":\"text\",\"caption\":\"role\",\"sample_value\":\"string value\",\"path\":[\"role\"]},\"_p_content\":{\"ret_btype\":\"list.api.1782828484073x123443649200259070.plugin_api.AAC.content\",\"caption\":\"content\",\"path\":[\"content\"]},\"_p_stop_reason\":{\"ret_btype\":\"text\",\"caption\":\"stop_reason\",\"sample_value\":\"string value\",\"path\":[\"stop_reason\"]},\"_p_stop_sequence\":{\"ret_btype\":\"text\",\"caption\":\"stop_sequence\",\"sample_value\":null,\"path\":[\"stop_sequence\"]},\"_p_stop_details\":{\"ret_btype\":\"text\",\"caption\":\"stop_details\",\"sample_value\":null,\"path\":[\"stop_details\"]},\"_p_usage.input_tokens\":{\"ret_btype\":\"number\",\"caption\":\"usage input_tokens\",\"sample_value\":8,\"path\":[\"usage\",\"input_tokens\"]},\"_p_usage.cache_creation_input_tokens\":{\"ret_btype\":\"number\",\"caption\":\"usage cache_creation_input_tokens\",\"sample_value\":0,\"path\":[\"usage\",\"cache_creation_input_tokens\"]},\"_p_usage.cache_read_input_tokens\":{\"ret_btype\":\"number\",\"caption\":\"usage cache_read_input_tokens\",\"sample_value\":0,\"path\":[\"usage\",\"cache_read_input_tokens\"]},\"_p_usage.cache_creation.ephemeral_5m_input_tokens\":{\"ret_btype\":\"number\",\"caption\":\"usage cache_creation ephemeral_5m_input_tokens\",\"sample_value\":0,\"path\":[\"usage\",\"cache_creation\",\"ephemeral_5m_input_tokens\"]},\"_p_usage.cache_creation.ephemeral_1h_input_tokens\":{\"ret_btype\":\"number\",\"caption\":\"usage cache_creation ephemeral_1h_input_tokens\",\"sample_value\":0,\"path\":[\"usage\",\"cache_creation\",\"ephemeral_1h_input_tokens\"]},\"_p_usage.output_tokens\":{\"ret_btype\":\"number\",\"caption\":\"usage output_tokens\",\"sample_value\":97,\"path\":[\"usage\",\"output_tokens\"]},\"_p_usage.service_tier\":{\"ret_btype\":\"text\",\"caption\":\"usage service_tier\",\"sample_value\":\"string value\",\"path\":[\"usage\",\"service_tier\"]},\"_p_usage.inference_geo\":{\"ret_btype\":\"text\",\"caption\":\"usage inference_geo\",\"sample_value\":\"string value\",\"path\":[\"usage\",\"inference_geo\"]}}},\"plugin_api.AAC.content\":{\"caption\":\"Get Response content\",\"fields\":{\"_p_type\":{\"ret_btype\":\"text\",\"caption\":\"type\",\"sample_value\":\"string value\",\"path\":[\"type\"]},\"_p_text\":{\"ret_btype\":\"text\",\"caption\":\"text\",\"sample_value\":\"string value\",\"path\":[\"text\"]}}}}",
+            "url": "https://api.anthropic.com/v1/messages",
+            "url_cant_be_private": true
+        }
+    },
+    "human": "Claude",
+    "shared_headers": {
+    },
+    "token_param_name": "x-api-key"
+}
